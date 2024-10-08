@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="icon" href="imags/logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .con {
+            width: 100%;
+            height: 1700px;
+            background-color: rgb(60, 60, 60);
+
+            /* position: relative;
+            bottom: 50px; */
+        }
+
+        nav {
+            width: 1380px;
+            height: 70px;
+            background-color: rgb(60, 60, 60);
+            position: fixed;
+            z-index: 5;
+        }
+
+        .hu {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            display: inline-block;
+            position: relative;
+            bottom: 8px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .lo {
+            margin-left: 140px;
+            margin-top: 20px;
+        }
+
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        /* a:hover{
+        color: rgb(234,67,67);
+       
+     } */
+        .span:hover {
+            border-bottom: 2px solid rgb(234, 67, 67);
+            color: rgb(234, 67, 67);
+        }
+
+        .na {
+            position: relative;
+            bottom: 15px;
+            left: 300px;
+            padding: 40px;
+
+        }
+        .sec1{
+            width: 100%;
+            height: 1000px;
+            border:  2px solid rgb(60,60,60);
+            background-color: rgb(60,60,60);
+            position: relative;
+        }
+        .gt{
+            color: rgb(60,60,60);
+            position: absolute;
+            top: 150px;
+            left: 630px;
+            font-family: "Protest Guerrilla", sans-serif;
+            font-weight: bold;
+            font-size: 25px;
+            text-shadow: 5px 0 10px white,0 5px 10px white,-5px 0 10px white,0 -5px 10px white;
+        }
+        .co{
+            color: rgb(60,60,60);
+            position: absolute;
+            top: 220px;
+            left: 530px;
+            font-family: "Protest Guerrilla", sans-serif;
+            font-weight: bold;
+            text-shadow: 5px 0 10px white,0 5px 10px white,-5px 0 10px white,0 -5px 10px white;
+            font-size: 40px;
+        }
+        .cn{
+            color: rgb(60,60,60);
+            position: absolute;
+            top: 300px;
+            left: 610px;
+            font-family: "Protest Guerrilla", sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 5px 0 10px white,0 5px 10px white,-5px 0 10px white,0 -5px 10px white;
+        }
+        .ple{
+color: rgb(172,169,181);
+position: absolute;
+            top: 400px;
+            left: 80px;
+            line-height: 30px;
+            font-family: "Roboto", sans-serif;
+           
+        }.ph{
+            position: absolute;
+            top: 520px;
+            left: 70px;
+        }
+        .me{
+            color: white;
+            position: absolute;
+            top: 530px;
+            left: 170px;
+            font-family: "Roboto", sans-serif;
+           color: white;
+        }
+        .nu{
+            color: rgb(234, 67, 67);
+            position: absolute;
+            top: 560px;
+            left: 170px;
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            border-bottom:  3px solid rgb(234, 67, 67);
+        }
+        .mi{
+            margin-top: 120px;
+            margin-left: 20px;
+        }
+        .vi{
+            margin-top: 110px;
+        }
+        .zi{
+            margin-top: 110px;
+            font-size: 20px;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            border:  2px solid  b(60,60,60);
+            position: absolute;
+            right: 100px;
+            top: 400px;
+           
+        }
+       form{
+        position: relative;
+       }
+       .gm{
+        width: 450px;
+        height: 65px;
+        background-color: rgb(77,76,76);
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+       }
+         .gm:placeholder-shown{
+            font-size: 20px;
+          
+         }
+         .gf{
+            margin-top: 20px;
+            width: 450px;
+            height: 65px;
+        background-color: rgb(77,76,76);
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+         }
+         .gf:placeholder-shown{
+            font-size: 20px;
+          
+         }
+         .gz{
+            margin-top: 20px;
+            width: 450px;
+        height: 65px;
+        background-color: rgb(77,76,76);
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+         }
+         .gz:placeholder-shown{
+            font-size: 20px;
+          
+         }
+         .fc{
+            margin-top: 20px;
+            width: 450px;
+        height: 210px;
+        background-color: rgb(77,76,76);
+        border-radius: 10px;
+        border: none; 
+        font-weight: bold;
+         }
+         .fc:placeholder-shown{
+            font-size: 20px;
+            text-align: center;
+         }
+         input,textarea{
+            color: white;
+            font-size: 20px;
+         }
+         .bui{
+            width: 200px;
+            height: 70px;
+            /* padding: 30px; */
+          background-color:  rgb(234, 67, 67); 
+          border: none;
+          color: white;
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          margin-top: 20px;
+          border-radius: 10px;
+         }
+         .vf{
+            width: 120px;
+            height: 100px;
+            background-color:rgb(234, 67, 67); 
+            /* border: 5px solid rgb(234, 67, 67); */
+            position: absolute;
+            top: 140px;
+            left: 100px;
+            z-index: 2;
+         }
+         .vk{
+            width: 120px;
+            height: 120px;
+            
+            border: 5px solid white;
+            position: absolute;
+            top: 170px;
+            left: 130px;
+            z-index: 1;
+         }
+         .sec2{
+            width: 100%;
+            height: 290px;
+            background-color: rgb(51,50,50);
+            border: 1px solid rgb(51,50,50);
+            position: relative;
+         }
+         .tx{
+            width: 300px;
+            height: 270px;
+            border: 7px solid white;
+            position: absolute;
+            left: 120px;
+            bottom: 100px;
+         }
+         .op{
+            position: absolute;
+            left: 30px;
+            top: 130px;
+            width: 75px;
+         }
+         .ra{
+            position: absolute;
+            left: 120px;
+            top: 150px;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+         }
+         .cno{
+            color: white;
+            font-family: "Roboto", sans-serif;
+            position: absolute;
+            left: 900px;
+            top: 80px;
+            font-weight: bold ;
+         }
+         .fac{
+            position: absolute;
+            left: 1000px;
+            top: 60px;
+         }
+         .twi{
+            position: absolute;
+            left: 1070px;
+            top: 55px;
+         }
+         .ins{
+            position: absolute;
+            left: 1140px;
+            top: 60px;
+         }
+         .jo{
+            position: absolute;
+            top: 240px;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+         }
+         .dd:hover{
+            color: rgb(234, 67, 67);
+            border-bottom: 2px solid rgb(234, 67, 67);
+         }
+         .bui:hover{
+            cursor: pointer;
+         }
+         .dic{
+            width: 120px;
+            height: 120px;
+            border:  5px solid white;
+            position: absolute;
+            top: 80px;
+            right: 50px;
+         }
+         .zz{
+            width: 100px;
+            height: 150px;
+            border: 2px solid rgb(234, 67, 67);
+            position: relative;
+            background-color: rgb(234, 67, 67);
+            position: absolute;
+            right: 30px;
+            bottom: 200px;
+            z-index: 9;
+         }
+         .zn{
+position: relative;
+bottom: 80px;
+left:1200px;
+font-size: 80px;
+color: white;
+width: 50px;
+height: 50px;
+border:  5px solid white;
+z-index: 8;
+         }
+         .dic{
+            animation: key 3s linear infinite;
+         }
+         .vf{
+            animation: key 3s linear infinite;
+         }
+         .vk{
+            animation: key 3s linear infinite;
+         }
+     @keyframes key {
+      100%{
+      transform: rotate(360deg);
+      }
+     }
+     .tx{
+        animation: vey 3s linear infinite;
+     }
+     @keyframes vey {
+        50%{
+      transform: rotate(10deg);
+      }100%{
+      transform: rotate(-10deg);
+      }
+     }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="nah">
+        <a href=""> <img class="lo" width="40px" height="40px" src="imags/logo.png" alt=""></a>
+         <a class="ko" href=""><span class="hu">Hurairah </span></a> 
+        
+          <a class="na" href="index.html"> <span class="span">Home</span></a>
+          <a class="na" href="about.html"> <span class="span">About us</span></a>
+          <a class="na" href="services.html"> <span class="span">Services</span></a>
+          <a class="na" href="contactus.html"> <span class="span">Contact us</span></a>
+      </div>
+      </nav>
+      <section class="sec1">
+         <p class="gt">Get in Touch</p>
+         <h1 class="co">Connect with Me with</h1>
+         <h1 class="cn">Confidence</h1>
+         <p class="ple">Please fill out the form on this section to contact with me. Or call <br> between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+         <img class="ph" src="imags/phone.png" alt="">
+         <h3 class="me">Call me</h3>
+         <h3 class="nu">+92 311 6085400</h3>
+         <img class="ph mi" src="imags/mail.png" alt="">
+         <h3 class="me vi">Email</h3>
+         <h3 class="nu zi">muhammadabuhurairah22@gmail.com</h3>
+         <div class="box">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="f2c5c36d-f663-45ff-a3a1-8adb7d49e675">
+            
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input class="gm" type="text" name="name" placeholder="Your Name" required>
+                <input class="gf" type="email" name="email" placeholder="Your Email" required>
+                <input  class="gz" type="tel" pattern="[0-9]{4}-[0-9]{7}" placeholder="Your Phone" name="phone">
+                <textarea class="fc" name="message" placeholder="Your message here" required></textarea>
+            
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
+                <!-- Custom Confirmation / Success Page -->
+                <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+            
+                <button class="bui" type="submit">Submit Form</button>
+            
+            </form>
+         </div>
+         <div class="vf"></div>
+         <div class="vk"></div>
+         <div class="dic"></div>
+      </section>
+      <section class="sec2">
+          
+<div class="tx">
+    <img class="op" src="imags/fin1.png" alt="">
+    <h1 class="ra">Hurairah</h1>
+</div>
+<span class="cno">Connect</span>
+ <a href="https://www.facebook.com/profile.php?id=61550602416623&mibextid=ZbWKwLL"><img class="fac" src="imags/fac.png" alt=""></a>
+ <a href="https://x.com/AbuHurirah1616?t=I9XWLKz-CbA-S5l4Y9CzBg&s=08"><img class="twi" src="imags/twi.png" alt=""></a>
+ <a href="https://www.instagram.com/programmer161626?igsh=MW42M3g4NzZ3M3EyNA=="><img class="ins" src="imags/ins.png" alt=""></a>
+ <div class="jo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Designed with love by Shtheme 2023</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href=""><span class="dd">Terms & Condition</span></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><span class="dd"> Privacy Policy</span></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href=""><span class="dd">Support</span> </a></div>
+ <div class="zz"></div>
+ <div class="zn"></div>
+      </section>
+</body>
+</html>

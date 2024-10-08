@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .d1 {
+            border: 1px solid red;
+        }
+
+        .d2 {
+            border: 1px solid blue;
+        }
+
+        .d1+p {
+            color: brown;
+        }
+
+
+        /* .link:link {
+            color: black;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        a:hover {
+            font-size: 20px;
+        } */
+
+        #p1 {
+            /* display: none; */
+            visibility: hidden;
+        }
+
+        .d1:hover #p1 {
+            /* display: block; */
+            visibility: visible;
+        }
+
+        p::first-line {
+            background-color: aqua;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+            color: blue;
+        }
+
+        h1::before {
+            content: 'Hello';
+        }
+
+        h1::after {
+            content: "Bye";
+        }
+        ::marker{
+            color: red;
+        }
+
+        ::selection{
+            background-color: blue;
+            color: black;
+        }
+
+        a[title*="li"]{
+            background-color: chocolate;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">
+        <h1>Heading</h1>
+        <!-- <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aperiam laboriosam dolores odit vero
+            adipisci minima aliquam temporibus dignissimos nostrum itaque id a accusantium quos, voluptas recusandae
+            culpa ipsam sequi.</p> -->
+        <a class="link" href="seo.html" title="link">Google</a>
+        <a class="link" href="seo.html" title="link fast">whatsapp</a>
+        <a class="link" href="seo.html" title="link-fast">facebook</a>
+        <a class="link" href="seo.html" title="fast link">linkedin</a>
+        <a class="link" href="seo.html" title="slice">insta</a>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officiis necessitatibus corporis totam nisi
+            omnis voluptate nostrum, vitae quos officia.</p> -->
+    </div>
+
+    <ul>
+        <li>car</li>
+        <li>car</li>
+        <li>car</li>
+        <li>car</li>
+    </ul>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, saepe!</p>
+    <img src="Ali Web icons-03.png" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem neque ipsa ducimus excepturi atque quaerat quisquam odit eaque inventore maxime. Qui, maxime fugit consequatur et vitae fuga neque molestiae saepe.</p>
+
+    <div class="d2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque architecto dignissimos suscipit quam quia minima aliquid facilis animi consequuntur.</p>
+    </div> -->
+</body>
+
+</html>

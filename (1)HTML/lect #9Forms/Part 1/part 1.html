@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 400px;
+            height: 500px;
+            border: 2px solid black;
+            background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+border-radius: 20px;
+        }
+
+        .abc {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .first {
+            text-align: center;
+        }
+
+        .bc {
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        .gen {
+            padding-top: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .lan {
+            padding-top: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .sub {
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+
+        }
+
+        .sum {
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .in {
+            cursor: pointer;
+        }
+        body{
+            background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NCAgIDQgHDQ0HBw0HBw0HBw8IDQcNFREWFhURExMYKCggGBolJxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0PDysZFRkrNzcrKystLSsrKy0tKysrKysrLS0tKystKysrKysrLS0rKy0rKysrKysrNy0rKysrK//AABEIAMkA+wMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBQb/xAAdEAEBAQEBAAIDAAAAAAAAAAAAARECUQMSMeHw/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAUG/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEgL/2gAMAwEAAhEDEQA/APpdXRivkX2B62gUpoOVdCVSIbJKpZXVFZWqCXR1SCXRlUiFKugUpoVUYgpVGFpZVkUpliMUTJrIKQqQrMyDMHXc/Afe+jdM3XlyloNrhzXe6MMq60IUpSgqzQcqyhCaZhKELSIS6LHNBsMpNAmgrEzC0tBZSCVIzWApVBYRDZIyCszNJZSCJ18nisEdLcc+u9DfWZ301nlmZmS8uVhXXG7YSwVOaIahKsrVZhytqMQcqhC00FKoyrrTMJdFTQUqgUpoLVFSNwpV0WLJsOlGs0LKWg2kQ066kc+vk8EdHPJddW/pE1WaYuqLakesKmp5MquZSuDNdxLo6sbBsOqmYcqgsrWaDWUYrQhasoFKayeroapENklUsrKWgsrVBLqMRCWUPtg3rVRHXruOd60WHTUJR1dVSqjELFFUIrazEPHiiuuB6G4Uqyi0podF0NWVrNZhxQWUiHKUoMayawJSjQhasFZTQa6EqytMw4o6l7wiOmje/HO9Wpo6PJ6soSrqUPVBZSITIqC6osaDYdUpVRiHjSqK68+vQJRlWNCEsHVLMPVCLpzQcUV1pmEsoyqaC0nM5WqFWUL2OrqCOl78QF0UwlGVSCXRYg9UNXTQSyjqkQlDS0iKyKguqLGh48YSlcD0VWUVNB6wrK1WYbCuobh6oFKc1ki0JUvfjVEdLR+wa0o6UNdDS01FKoLpEJdGVTQUqgspohsmsQWrKLEHqhqw0Hq6GqRCUZV0iPFijKUee9BdWCsrQJk1SC1QWU0Q9a9BekVEPWBZTVD1RZCFpaGqRDlXQ1dNBLo6pBaoLpEJZRU0HKwaUrVEJk1SF0oCqg9YdXf7TQ8VdRnA9A9UNWVAllG1Ps1RDtTUlUVRdUV00RVTWIJZRY0G2jqytCFqi2oQ9XQUiHqhq6aCXR1SCUVlIhasosayahqytUQlFSnjxRja4HeTaOslCZGSVZUYiHKrmUqEJZR1TQWsKytUEyayBauizVBroaukQl0V1CFpaDaRHRglLTQWrKLNCGw6upmFKuizVDyWZnA70XWRImFZWqiUVQVkVJdWUWIjowSlKmYqyozVRMK6QTIpCykCmiEujKpBLoKhDlWUF01k2HVlaoLV0WIjzGZnE7WZmSZFZJtVEVRKOq1UqiqCsikLKUoMhHRhlXSC1dFjQSjq6Uq6KmgpVBdNEPW0dUiEujqpmFq6GrpoeezM5XWzMyTMzJMzMkyKyTaorClVGIVUjJKzMQUq6BRAmZiFlUVaCqjIKupGNBaoxY0C1RVB/9k=); 
+          
+        }
+    </style>
+</head>
+
+<body>
+    <div class="abc">
+        <form action="forms.html" autocomplete="on">
+            <div class="first">
+                <h1>Login form</h1>
+                <label for="">Enter Username: </label><br>
+                <input class="bc " type="text" name="Username" required><br>
+                <label for="">Enter password:</label><br>
+                <input class="bc " type="password" name="password"><br>
+                <!-- <label for="">Enter Mail:</label><br>
+                <input class="bc " type="email" name="Mail"><br> -->
+            </div>
+            <div class="gen" >
+                <label for="">Select Gender:</label><br>
+                <input class="in" type="radio" name="Gender" value="Male">
+                <label for="">Male</label><br>
+                <input class="in" type="radio" name="Gender" value="Female">
+                <label for="">Female</label><br>
+                <input class="in" type="radio" name="Gender" value="Not prefer to say">
+                <label for="">Not prefer to say</label><br>
+            </div>
+            <div class="lan">
+                <label for="">Select language:</label><br>
+                <input class="in" type="checkbox" name="Language" value="C++">
+                <label for="">C++</label><br>
+                <input class="in" type="checkbox" name="Language" value="Python">
+                <label for="">Python</label><br>
+                <input class="in" type="checkbox" name="language" value="JavaScript">
+                <label for="">JavaScript</label><br>
+                <input class="in" type="checkbox" name="language" value="java">
+                <label for="">java</label><br>
+            </div>
+            <div class="sub">
+                <input class="sum" type="submit" name="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

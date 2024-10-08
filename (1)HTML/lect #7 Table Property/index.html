@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            /* border: 1px solid red; */
+            text-align: center;
+
+        }
+
+        table {
+            width: 400px;
+            height: 200px;
+            /* border-spacing: 40px; */
+            /* border-spacing: 0px; */
+            border-collapse: collapse;
+
+        }
+
+        td,th {
+            /* padding-bottom: 40px; */
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+
+        }
+
+        /* tr:nth-child(odd) {
+            background-color: black;
+            color: white;
+        } */
+
+        td:nth-child(odd),
+        th:nth-child(odd) {
+            background-color: black;
+            color: white;
+        }
+
+        /* tr {
+            border-bottom: 2px solid red;
+        } */
+
+        th,
+        td {
+            border-right: 2px solid red;
+            border-left: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!-- <th rowspan="3">Name</th> -->
+            <th>Name</th>
+
+            <td>Ali</td>
+            <td>Ahmed</td>
+            <td>Aftab</td>
+        </tr>
+        <tr>
+            <th>Roll no </th>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <!-- <th colspan="2">Age</th> -->
+            <td>18</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

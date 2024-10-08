@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            background-color: black;
+            animation: back 10s linear infinite;
+            position: relative;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 440px;
+            left: 150px;
+            animation: moon 10s linear infinite;
+        }
+        @keyframes moon 
+        {
+            0%{
+                top: 440px;
+                left: 150px;
+            }
+            50%{
+                left: 500px;
+                top: 150px;
+                /* background-color: red; */
+                background-color: #FDB813;
+                box-shadow: 10px 10px 10px white;
+            }
+            60%{
+                background-color: red;
+            }
+            100%{
+                top: 500px;
+            left: 1100px;
+            }
+            
+        }
+        @keyframes back {
+            0%{
+                background-color: black;
+            }
+            50%{
+                background-color: rgb(224, 134, 15);
+            }
+            100%{
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+     <div>
+
+     </div>
+</body>
+</html>

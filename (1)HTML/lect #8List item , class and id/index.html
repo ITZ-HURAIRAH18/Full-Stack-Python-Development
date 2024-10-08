@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            background-color: blueviolet;
+            /* color: white; */
+        }
+        .abc::marker{
+            color: blueviolet;
+       
+        }
+        /* li.abc::marker{
+           color: blueviolet;
+           background-color: blueviolet;
+        } */
+         #a2{
+background-color: brown;
+color: white;
+         }
+    </style>
+</head>
+<body>
+    <ol type="i">
+        <li class="abc">Abu Hurairah</li>
+        <li>Ali</li>
+        <li>Ahmed</li>
+        <li>Aftab</li>
+    </ol>
+    <hr>
+    <ul style="list-style-type: decimal-leading-zero;">
+        <li class="abc">Abu Hurairah</li>
+        <li>Ali</li>
+        <li>Ahmed</li>
+        <li>Aftab</li>
+    </ul>
+    <hr>
+    <!-- Nested order list -->
+    <ol>
+        <li class="abc">Ali</li>
+        <li>Ali</li>
+        <ul>
+        <li>Ahmed</li>
+        <li>Ahmed</li>
+        </ul>
+    </ol>
+    <hr>
+    <!-- part 2 -->
+<ul>
+    <li class="abc">Aftab</li>
+    <li id="a2">Aftab</li>
+    <ol>
+        <li>Umar</li>
+        <li>Umar</li>
+    </ol>
+</ul>
+</body>
+</html>

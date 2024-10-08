@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div{
+        
+        position: absolute;
+        right: 0%;
+        top: 150px;
+        width: 100px;
+        height: 100px;
+        animation: ball 10s linear infinite;
+    }
+.img{
+        position: absolute;
+        top: 220px;
+        left: -40px;
+        width: 300px;
+        height: 350px;
+        animation: bat 5s  cubic-bezier(0.08, -0.73, 0, 0.93) infinite 4s;
+        
+    }
+    .op img{
+position: absolute;
+left: 270px;
+bottom: 110px;
+opacity: 0.7;
+animation: vk 10s linear infinite ;
+    }
+    @keyframes vk {
+        50%{
+            transform: rotate(10deg);
+        }
+        100%{
+            transform: rotate(-10deg);
+        }
+    } 
+    body{
+        /* background-color: black; */
+        background-image: url(mcg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    @keyframes bat {
+        0%{
+            left: -40px;
+            top: 220px;
+        }
+     
+        50%{
+            transform: rotate(-30deg);
+        }
+        100%{
+            left: -40px;
+            top: 220px;
+        }
+        
+    }
+    @keyframes ball {
+        0%{
+            right: 0%;
+        top: 150px;
+        }
+        25%{
+            top: 550px;
+        right: 650px;
+        }
+        50%{
+            top: 330px;
+            right: 1125px;
+            
+        }
+        /* 75%{
+            top: 200px;
+            right: 650px;
+            
+        } */
+        100%{
+            right: 350px;
+            top: -140px;
+        }
+    }
+    @keyframes logo {
+        0%{
+            display: none;
+        }
+        20%{
+            display: none;
+        }
+        40%{
+            display: none;
+        }
+        60%{
+            display: none;
+        }
+        80%{
+            display: none;
+        }
+        90%{
+            display: none;
+        }
+        95%{
+            display: none;
+        }
+        100%{
+            display: block;
+        }
+    }
+    .oj{
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 120px;
+        right: 200px;
+        border-radius: 50%;
+        animation: logo 10s infinite linear;
+    }
+</style>
+<body>
+    <!-- <div class="op"><img src="Vk.png" alt="" srcset=""></div> -->
+<img class="div" src="ball.png" alt="">
+    <img class="img" src="mrf.png" alt="">
+    <img class="oj" src="logo.jpg" alt="" srcset="">
+</body>
+</html>

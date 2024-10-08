@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+        .child{
+            height: 100px;
+            width: 20%;
+            background-color: aqua;
+        }
+        p{
+            width: 50%;
+            text-align: justify;
+        }
+        img{
+            width: 30%;
+        }
+
+        @media screen and (min-width: 576px ) and (max-width : 800px){
+            body{
+                background-color: brown;
+            }
+            h1{
+                order: 1;
+            }
+            p{
+                width: 50%;
+                order: 2;
+            }
+            img{
+                width: 50%;
+                order: 3;
+            }
+            .child{
+                width: 100%;
+                order: 4;
+            }
+        }
+
+
+        @media  screen and (min-width : 0) and (max-width : 576px){
+            body{
+                background-color: chocolate;
+            }
+            h1{
+                order: 1;
+                font-size: 20px;
+            }
+            img{
+                order: 2;
+                width: 100%;
+            }
+            p{
+                order: 3;
+                width: 100%;
+            }
+            .child{
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Media Queries</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio repellendus perspiciatis ut et, aperiam ratione commodi, sapiente maxime accusamus voluptatum error omnis? Exercitationem eius cum tempora accusantium, vero nemo quos ut a sit eligendi fugiat vitae laborum ipsum ea, adipisci nihil, porro quisquam dolorum ipsa nesciunt! Nulla assumenda perspiciatis accusantium necessitatibus aspernatur error cum, impedit pariatur, distinctio dolor deleniti aperiam temporibus harum suscipit eos rem! At numquam harum cupiditate quae facere provident reiciendis pariatur, asperiores, praesentium maxime amet accusantium commodi nisi est! Consequatur sequi nobis deserunt quod, eum esse! Nihil aspernatur inventore odit suscipit, nisi consectetur reiciendis hic recusandae sapiente?</p>
+        <div class="child"></div>
+        <img src="https://images.unsplash.com/photo-1727121798392-73441c6b4a3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+</body>
+</html>

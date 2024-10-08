@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            animation: animate 5s linear  infinite;
+        }
+        #d2{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 200px;
+            left: 600px;
+            animation: animate1 5s linear  infinite;
+        }
+
+
+
+
+
+        @keyframes animate {
+            25%{
+                background-color: black;
+                /* transform: rotate(90deg);  */
+                /* left: 300px; */
+                /* border-radius: 25%; */
+                /* top: 200px; */
+            }
+            50%{
+                background-color: red;
+                /* left: 500px; */
+                /* top: 0; */
+                /* border-radius: 50%; */
+             /* transform: rotate(180deg); */
+            }
+            75%{
+                background-color: blue;
+                /* left: 700px; */
+                /* top: 200px; */
+                /* border-radius: 25%; */
+                /* transform: rotate(270deg); */
+            } 
+            100%{
+                background-color: aqua;
+                /* top: 0;
+                left: 900px; */
+                /* border-radius: 0; */
+                transform: rotate(270deg);
+            }
+        }
+
+        @keyframes animate1 {
+            100%{
+                transform: rotate(-360deg);
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</body>
+</html>

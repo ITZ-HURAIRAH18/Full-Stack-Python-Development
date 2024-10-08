@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #nav1{
+            background-color: blue;
+            position: relative;
+        }
+        #ul1{
+            list-style-type: none;
+            text-align: center;
+        }
+        .item1{
+            display: inline-block;
+            padding: 20px;
+        }
+        .link1{
+            color: white;
+            text-decoration: none;
+        }
+        .img1{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            float: left;
+            position: absolute;
+            top: 3px;
+            left: 15px;
+        }
+        .item1:hover{
+            background-color: white;
+        }
+        .item1:hover .link1{
+            color: blue;
+
+        }
+
+
+        /* //////////////////////////////vertical nav////////////////////////////////////// */
+
+
+        #nav2{
+            background-color: aqua;
+            width: 15%;
+            height: 100%;
+            position: absolute;
+            text-align: center;
+        }
+
+        .img2{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            /* margin-left: 25%; */
+            margin-top: 30px;
+        }
+        #ul2{
+            list-style-type: none;
+            /* text-align: center; */
+            /* padding: 35%; */
+            /* margin-left: 30%; */
+        }
+        .item2{
+            padding: 10%;
+            /* padding-top: 50px; */
+        }
+        .link2{
+            text-decoration: none;
+            color: black;
+        }
+
+        /* .link2:hover{
+            color: aqua;
+            font-size: 25px;
+        } */
+        .item2:hover{
+            background-color: white;
+
+        }
+        .item2:hover .link2{
+            color: aqua;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav1">
+        <img class="img1" src="https://images.unsplash.com/photo-1662403655546-2610bdbc34dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D" alt="">
+        <ul id="ul1">
+            <li class="item1"><a href="" class="link1">Home</a></li>
+            <li class="item1"><a href="" class="link1">About</a></li>
+            <li class="item1"><a href="" class="link1">Contact</a></li>
+            <li class="item1"><a href="" class="link1">Gallery</a></li>
+
+        </ul>
+    </div>
+    <div id="nav2">
+        <img class="img2" src="https://images.unsplash.com/photo-1662403655546-2610bdbc34dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D" alt="">
+        <ul id="ul2">
+            <li class="item2"><a href="" class="link2">Home</a></li>
+            <li class="item2"><a href="" class="link2">About</a></li>
+            <li class="item2"><a href="" class="link2">Contact</a></li>
+            <li class="item2"><a href="" class="link2">Gallery</a></li>
+
+        </ul>
+    </div>
+</body>
+</html>

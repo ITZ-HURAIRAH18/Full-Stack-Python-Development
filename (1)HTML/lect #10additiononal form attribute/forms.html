@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="checkbox" checked><br><br>
+        <input type="color" name="color" id="bgcolor" onchange="change()"><br><br>
+
+        <input type="date" name="dob" disabled><br><br>
+        <input type="datetime-local" name="dob"><br><br>
+        <input type="file" name="cv"><br><br>
+        <input type="hidden" name="cv"><br><br>
+        <input type="image" name="img" src="Ali Web icons-04.png"><br><br>
+        <input type="month" name="mnth" readonly><br><br>
+        <input type="number" name="age" min="1" max="10" required><br><br>
+        <input type="password" name="pass" maxlength="8" size="50"><br><br>
+        <input type="range" name="volume" step="50"><br><br>
+        <input type="reset"><br><br>
+        <input type="search"><br><br>
+        <input type="tel" name="contact" pattern="[0-9]{4}-[0-9]{7}"><br><br>
+        <input type="url" name="url"><br><br>
+        <input type="week" name="url"><br><br>
+        <!-- <input type="submit"> -->
+    </form>
+
+
+
+    <script>
+
+        let a = document.getElementById("bgcolor");
+
+        function change() {
+            document.body.style.backgroundColor = a.value;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            width: 150px;
+            height: 150px;
+            box-shadow: 2px 2px 10px red,-2px -2px 10px blueviolet;
+            /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+            /* fill mode means ka woh waha ja ka ruk jay ya nai */
+            /* forward means ka woh waha ja ka ruk jay ga backword default property ha */
+            /* animation: AbuHurairah 3s linear 1 forwards ; */
+           /* reverse means opposite direction ma move kara ga */
+            /* animation: AbuHurairah 3s linear  infinite  reverse; */
+            /* alternative means wapis b aya ga */
+            /* animation: AbuHurairah 3s linear  infinite  alternate; */
+            /* Alternative-reverse means ka woh reverse sa alternative ho ga  */
+            animation: AbuHurairah 3s linear  infinite  alternate-reverse;
+            position: absolute;
+        }
+        .d{
+            width: 120px;
+            height: 120px;
+            box-shadow: 10px 10px 10px orangered;
+            position: absolute;
+            top: 400px;
+            left: 300px;
+            animation: single 2s linear infinite;
+        }
+        @keyframes single {
+            25%{
+                background-color: red;
+            }
+            50%{
+                background-color: orangered;
+            }
+            75%{
+                background-color: brown;
+            }
+            100%{
+                transform: rotate(730deg);
+            }
+        }
+        @keyframes AbuHurairah {
+            0%{
+                width: 150px;
+            height: 150px;
+            left: 0px;
+            }
+            25%{
+                background-color: brown;
+             left: 200px;   
+             border-radius: 50%;
+             transform: rotate(30deg);
+            }
+            50%{
+                background-color: burlywood;
+                left: 400px;
+                transform: rotate(90deg);
+            }
+            75%{
+                background-color: blueviolet;
+                left: 800px;
+                transform: rotate(130deg);
+            }
+            100%{
+                background-color: aqua;
+                left: 1000px;
+                transform: rotate(3150deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+
+    </div>
+    <div class="d"></div>
+</body>
+</html>

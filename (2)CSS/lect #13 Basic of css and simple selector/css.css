@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#para {
+    color: blue;
+}
+
+.head {
+    background-color: black;
+    color: white;
+}
+
+div {
+    border: 2px solid red;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+           
+              overflow: hidden; 
+        }
+            
+        .night{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            right: 0%;
+            bottom: -210px;
+            animation: night 20s linear infinite;
+            background-color: white;
+            box-shadow: 3px 3px 10px white;
+        }
+        @keyframes night {
+            0%{
+              
+            right: 0%;
+            bottom: -210px;  
+            }
+            15%{
+                right: 100px;
+                bottom: 150px; 
+                z-index: 2;
+               
+            }
+            25%{
+                right: 300px;
+                bottom: 400px; 
+                z-index: 2;
+            }
+            30%{
+                right: 500px;
+                bottom: 450px;
+            }
+            37%{
+                right: 700px;
+                bottom: 400px;
+            }
+            45%{
+                right: 1000px;
+                bottom: 200px;
+            }
+            50%{
+                right: 1150px;
+                bottom: 0px;
+            }
+            60%{
+                right: 1200px;
+                bottom: -210px;  
+            }
+            100%{
+                right: 1200px;
+                bottom: -210px;  
+            }
+            
+        }
+        @keyframes body {
+            0%{
+              
+              background-image: url(night.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              z-index: -5;
+              opacity: 0.6;
+              }
+              15%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 0.8;
+              }
+              25%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 1;
+              }
+              30%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 1;
+              }
+              37%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 1;
+              }
+              45%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 0.9;
+              }
+              50%{
+                background-image: url(night.png);
+                background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 0.5;
+              }
+              60%{
+background-image: url(https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid);
+background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+                opacity: 0.5;
+              }75%{
+background-image: url(https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid);
+background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+              }
+              95%{
+        
+background-image: url(https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid);
+background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+            
+              }
+              100%{
+background-image: url(https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid);
+background-repeat: no-repeat;
+              background-size: cover;
+                z-index: -5;
+              }
+        }
+        @keyframes sun {
+            0%{
+              
+              right: 0%;
+              bottom: -210px;  
+              }
+              15%{
+                  right: 100px;
+                  bottom: 150px; 
+                  z-index: 2;
+                 
+              }
+              25%{
+                  right: 300px;
+                  bottom: 400px; 
+                  z-index: 2;
+              }
+              30%{
+                  right: 500px;
+                  bottom: 450px;
+              }
+              37%{
+                  right: 700px;
+                  bottom: 400px;
+                  box-shadow: 3px 3px 10px yellow;
+              }
+              45%{
+                  right: 1000px;
+                  bottom: 200px;
+              }
+              50%{
+                  right: 1150px;
+                  bottom: 0px;
+              }
+              60%{
+                  right: 1200px;
+                  bottom: -210px;  
+              }
+              100%{
+                  right: 1200px;
+                  bottom: -210px;  
+              }
+        }
+        .body{
+            width: 100%;
+            position: absolute;
+            height: 100%;
+ animation: body 20s linear infinite;
+
+ display: inline-block;
+        }
+        .main{
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            display: inline-block;
+            background-image: url(m.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            overflow: hidden;
+        }
+        .sun{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            right: 0%;
+            bottom: -210px;
+            animation: sun 20s linear infinite 10s;
+            background-color:#FDB813;
+            box-shadow: 3px 3px 10px rgba(255, 174, 0, 0.555); 
+        }
+    </style>
+</head>
+<div class="main">
+<body>
+   <div class="night"></div>
+   <div class="body"></div>
+   <div class="sun"></div>
+</div>
+</body>
+</html>

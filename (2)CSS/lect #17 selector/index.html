@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1{
+            border: 10px outset red;
+        }
+        .p2{
+            border: 10px outset red;
+        }
+        /* Css Selector */
+        /* .p1 p{
+          background-color: blue;
+          color: white;
+        } */
+         /* .p1 >p{
+            background-color: blue;
+          color: white;
+         } */
+          /* .p1 + p{
+            background-color: blue;
+            color: white;
+          } */
+           /* .p1 ~ p{
+            background-color: blue;
+            color: white;
+           } */
+         .pp{
+            /* display: none; */
+            visibility: hidden;
+         }
+
+
+            /* pseudo classes */
+            .p1:hover .pp{
+                /* display: block; */
+                visibility: visible;
+            }
+            a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:active {
+            color: blue;
+        }
+        input:focus{
+            font-size: 20px;
+        }
+        /* Element selector */
+        .p1 p::first-letter{
+            font-size: 40px;
+            color: blue;
+        }
+        .p1 p::first-line{
+            font-size: 40px;
+            color: blue;
+        }
+        h1::before{
+            content: "Hello";
+        }
+        h1::after{
+            content: "bye";
+        }
+        li::marker{
+            color: red;
+        }
+        p::selection{
+            color: red;
+            background-color:black;
+        }
+        /* a[title~="link"] 
+        is ma jaha woh word ho woh usa select kr la ga 
+        {
+            color: blue;
+        } */
+           /* a[title|="link"] 
+        is ma jaha woh word ho woh usa select kr la ga 
+        {
+            color: blue;
+        }  */
+           /* a[title^="link"] 
+        {
+            color: blue;
+        }  */
+            /* a[title$="link"] 
+        {
+            color: blue;
+        }  */
+        a[title*="l"] 
+        {
+            color: blue;
+        } 
+    </style>
+</head>
+
+    <a href="https://www.youtube.com"title="link" >youtube</a>
+    <a href="https://www.youtube.com"title=" fat-link" >youtube</a>
+    <a href="https://www.youtube.com"title="fat link" >youtube</a>
+    <a href="https://www.youtube.com"title="slice" >youtube</a>
+    <!-- <ul>
+        <li>orange</li>
+        <li>orange</li>
+        <li>orange</li>
+        <li>orange</li>
+    </ul>
+    <h1>Heading</h1> -->
+    <!-- <div class="p1">
+        <p class="pp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti dolores sunt voluptas nisi repellat dolorum. Incidunt, labore voluptate? Obcaecati cumque deleniti odio dolor totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem iste facilis tenetur reprehenderit? Accusantium odio atque quidem quod quos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptas.</p>
+        <img src="https://images.unsplash.com/photo-1719937206341-38a6392dfdef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  width="100px" height="100px">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio eos voluptates quae labore perspiciatis molestias nobis veritatis sed praesentium vitae adipisci recusandae incidunt sit sunt accusantium aperiam, numquam repudiandae earum fugit a saepe corrupti ipsa veniam dolore? Aspernatur corrupti necessitatibus natus, sed iusto voluptas ea.</p>
+    </div> -->
+   
+    <!-- <a class="link" href="https://youtube.com">Google</a>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore eaque corporis facere id amet libero nemo, omnis voluptatum voluptas corrupti incidunt! Dolorem labore velit facere doloremque mollitia suscipit omnis minima ex. Aliquam, laborum ex.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, deleniti.</p>
+    <img src="https://images.unsplash.com/photo-1719937206341-38a6392dfdef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  width="100px" height="100px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maiores quasi nisi fugiat temporibus ratione officia asperiores et odio earum pariatur provident, natus, maxime accusamus iste minus illum voluptas! Maxime, placeat ea deserunt non corporis magnam quo alias magni accusamus ipsa temporibus quisquam numquam porro!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia autem, et error vel blanditiis maiores facere asperiores, dolorem similique dignissimos consequatur illo, sint culpa incidunt magnam eaque aliquid ad atque amet tempore. Enim quod omnis expedita dolor harum, reiciendis adipisci, consectetur ullam ducimus repudiandae deleniti.</p>
+    <input type="search"> -->
+    <!-- <div class="p2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti dolores sunt voluptas nisi repellat dolorum. Incidunt, labore voluptate? Obcaecati cumque deleniti odio dolor totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem iste facilis tenetur reprehenderit? Accusantium odio atque quidem quod quos?</p>
+        <img src="https://images.unsplash.com/photo-1719937206341-38a6392dfdef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  width="100px" height="100px">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio eos voluptates quae labore perspiciatis molestias nobis veritatis sed praesentium vitae adipisci recusandae incidunt sit sunt accusantium aperiam, numquam repudiandae earum fugit a saepe corrupti ipsa veniam dolore? Aspernatur corrupti necessitatibus natus, sed iusto voluptas ea.</p>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="icon" href="imags/logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .con {
+            width: 100%;
+            height: 1700px;
+            background-color: rgb(60, 60, 60);
+
+            /* position: relative;
+            bottom: 50px; */
+        }
+
+        nav {
+            width: 1380px;
+            height: 70px;
+            background-color: rgb(60, 60, 60);
+            position: fixed;
+            z-index: 5;
+        }
+
+        .hu {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            display: inline-block;
+            position: relative;
+            bottom: 8px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .lo {
+            margin-left: 140px;
+            margin-top: 20px;
+        }
+
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        /* a:hover{
+        color: rgb(234,67,67);
+       
+     } */
+        .span:hover {
+            border-bottom: 2px solid rgb(234, 67, 67);
+            color: rgb(234, 67, 67);
+        }
+
+        .na {
+            position: relative;
+            bottom: 15px;
+            left: 300px;
+            padding: 40px;
+
+        }
+
+        .con1 {
+            width: 470px;
+            height: 250px;
+            border: 2px solid rgb(60, 60, 60);
+            position: relative;
+            top: 150px;
+            left: 130px;
+            float: left;
+        }
+
+        .cc {
+            color: rgb(234, 67, 67);
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            /* font-weight: bold; */
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .h1 {
+            color: white;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .pa {
+            color: rgb(164, 160, 172);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .con2 {
+            width: 470px;
+            height: 250px;
+            border: 2px solid rgb(51, 50, 50);
+            background-color: rgb(51, 50, 50);
+            position: relative;
+            top: 150px;
+            left: 170px;
+            float: left;
+            border-radius: 15px;
+        }
+
+        .rr {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        .re {
+            font-family: "Roboto", sans-serif;
+            color: white;
+            font-size: 25px;
+            position: relative;
+            left: 150px;
+            bottom: 70px;
+        }
+
+        .st {
+            font-family: "Roboto", sans-serif;
+            color: white;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+
+        .forty {
+            color: rgb(234, 67, 67);
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+
+        .pop {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            left: 150px;
+            bottom: 45px;
+        }
+
+        .rrr {
+            margin-top: 20px;
+            margin-left: -15px;
+            float: left;
+        }
+
+        .ty {
+            margin-left: 45px;
+        }
+
+        .vvv {
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+
+        .box {
+            width: 100px;
+            height: 180px;
+            border: 2px solid rgb(234, 67, 67);
+            background-color: rgb(234, 67, 67);
+            position: relative;
+            bottom: 550px;
+            left: 550px;
+        }
+
+        .kno {
+            color: white;
+        }
+
+        .con3 {
+            width: 500px;
+            height: 300px;
+            border: 2px solid rgb(60, 60, 60);
+            position: relative;
+            right: 530px;
+        }
+
+        .sp {
+            color: rgb(234, 67, 67);
+            font-family: "Roboto", sans-serif;
+            /* margin-left: 80px; */
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .res {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            margin-top: 20px;
+        }
+
+        .pl {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            margin-top: 20px;
+        }
+
+        .e1 {
+            margin-top: 70px;
+            width: 330px;
+            height: 250px;
+            border: 2px solid rgb(60, 60, 60);
+            float: left;
+        }
+
+        .ee {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            margin-left: 100px;
+        }
+
+        .rt {
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .cut {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            left: 90px;
+            bottom: 50px;
+        }
+
+        .po {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            left: 90px;
+            bottom: 20px;
+        }
+
+        .ll {
+            color: rgb(234, 67, 67);
+
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            left: 250px;
+            bottom: 150px;
+        }
+
+        .tj {
+            position: relative;
+            bottom: 165px;
+            left: 280px;
+        }
+
+        .bott {
+            border-bottom: 5px solid white;
+        }
+
+        .lu {
+            width: 2000px;
+            height: 5px;
+            border: 2px solid white;
+            position: relative;
+            right: 700px;
+            bottom: 70px;
+            background-color: white;
+        }
+        .lk{
+            width: 350px;
+            height: 450px;
+position: absolute;
+top: 1000px;
+right: 100px;
+z-index: 2;
+        }
+        .ez{
+            width: 200px;
+            height: 200px;
+            border:  5px solid white;
+            position: absolute;
+top: 1100px;
+right: 90px;
+z-index: 1;
+        }
+      
+        .dz{
+            width: 100px;
+            height: 100px;
+            border:  5px solid rgb(234, 67, 67);
+            background-color: rgb(234, 67, 67);
+            position: absolute;
+top: 1300px;
+right: 320px; 
+        }
+        .df{
+            width: 200px;
+            height: 200px;
+            border:  5px solid rgb(234, 67, 67);
+            background-color: rgb(234, 67, 67);
+            position: absolute;
+top: 1100px;
+right: 90px;
+        }
+        .fo{
+            width: 200px;
+            height: 200px;
+            border:  5px solid rgb(54, 53, 53);
+            position: absolute;
+            left: 1100px;
+            top: 1250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="nah">
+                <a href=""> <img class="lo" width="40px" height="40px" src="imags/logo.png" alt=""></a>
+                <a href=""><span class="hu">Hurairah </span></a>
+
+                <a class="na" href="index.html"> <span class="span">Home</span></a>
+                <a class="na" href="about.html"> <span class="span">About us</span></a>
+                <a class="na ser" href="services.html"> <span class="span ser">Services</span></a>
+                <a class="na" href="contactus.html"> <span class="span">Contact us</spanI></a>
+            </div>
+        </nav>
+    </div>
+    <div class="con">
+        <div class="con1">
+            <p class="cc">What I Do</p>
+            <h1 class="h1">My Services</h1>
+            <p class="pa">We offer high quality products for competitive prices. Our main <br> goal is customer
+                satisfaction, which we obtain through market <br>orientation of ongoing service and support.</p>
+        </div>
+        
+        <div class="con2 ty">
+            <img class="rr" src="imags/service-dark.png" alt="" width="70px" height="70px">
+            <h3 class="re">Vedio Production</h3>
+            <p class="st re">Start from <span class="forty">$49</span></p>
+            <p class="pop">
+
+                Abu Hurairah is a leading web design<br> agency withan award-winning design <br>team that creates
+                innovative, effective <br> websites</p>
+        </div>
+        <div class="con2 rrr">
+            <img class="rr" src="imags/service-dark.png" alt="" width="70px" height="70px">
+            <h3 class="re">Website production</h3>
+            <p class="st re">Start from <span class="forty">$70</span></p>
+            <p class="pop">
+
+                M. Abu Hurairah offers professional <br> website production services, delivering <br> high-quality web
+                solutions tailored <br> to your needs.</p>
+        </div>
+        <img class="lk" src="imags/without/1.png" alt="">
+        <div class="fo"></div>
+        <div class="ez"></div>
+        <div class="dz"></div>
+        <div class="df"></div>
+        <div class="con2 vvv">
+            <img class="rr" src="imags/service-dark.png" alt="" width="70px" height="70px">
+            <h3 class="re">Graphic designing</h3>
+            <p class="st re">Start from <span class="forty">$40</span></p>
+            <p class="pop">
+
+                M. Abu Hurairah offers expert graphic <br> design services, creating visually <br>compelling designs to
+                enhance your <br> brand identity. </p>
+            <div class="box"></div>
+           
+            <div class="lu"></div>
+            <div class="con3">
+                <span class="sp">Know More</span>
+                <h1 class="res">My Resume</h1>
+                <p class="pl">I enjoy every step of the design process, from discussion and collaboration to concept and
+                    execution</p>
+                <div class="e1">
+                    <h2 class="ee">Education</h2>
+                    <img class="rt" src="imags/ed.png" alt="">
+                    <p class="cut">Computer Sciences <br>
+                        University of Central punjab</p>
+                    <p class="po">Abu Hurairah is a UCP student <br> passionate about learning such <br> as machine
+                        learning and web <br>development</p>
+                    <span class="ll tj">2018-2020</span>
+                    <div class="ht"></div>
+                    <div class="bott"></div>
+                </div>
+                <div class="e1">
+
+                    <h2 class="ee">Education</h2>
+                    <img class="rt" src="imags/ed.png" alt="">
+                    <p class="cut">Intermediate of CS <br>
+                        Punjab Group of College</p>
+                    <p class="po">Abu Hurairah has Completed <br> ICS from Punjab College,<br> focusing on computer
+                        science. </p>
+                    <span class="ll">2018-2020</span>
+                    <div class="bott"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            width: 200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: aqua;
+            display: inline-block;
+        }
+        .span{
+            width:200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: rgb(0, 255, 98); 
+            display: inline-block;
+        }
+        .rel{
+
+         width:200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: rgb(255, 38, 0); 
+            position: relative;
+            bottom: 40px;
+            left: 100px;
+        }
+        .par{
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+            background-color: rgb(255, 38, 0);
+            position: absolute;
+            z-index: 1;
+        }
+        /* .c{
+            width:200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: rgb(0, 255, 98); 
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        } */
+        /* .c{
+            width:200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: rgb(0, 255, 98); 
+            position: fixed;
+            
+        } */
+      
+        .c{
+            width:200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: rgb(0, 255, 98); 
+            position: sticky;
+           top: 280px;
+           z-index: 3;
+        } 
+       
+        .d1{
+width: 100%;
+height: 500px;
+border: 1px solid black;
+background-color: blue;
+        }
+        .d2{
+            width: 100%;
+height: 600px;
+border: 1px solid black;
+background-color: rgb(255, 238, 0);
+        }
+        .b{
+            width: 200px;
+            height:200px;
+            border: 1px solid black;
+            background-color: aqua;
+            margin: auto;
+        }
+        .im{
+margin: auto;
+display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+
+    </div>
+   <div class="span">
+
+   </div>
+    <img src="https://images.unsplash.com/photo-1726090401458-7abb00f7450c?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200px" height="200px" alt="" srcset="">
+    <div class="rel">
+
+    </div>
+    <div class="c"></div>
+    <div class="par">
+
+    
+    </div>
+    <div class="d1">
+    </div>
+      <div class="d2"></div>
+    </div>
+    <div class="b">
+
+    </div>
+    <img class="im" src="https://images.unsplash.com/photo-1726090401458-7abb00f7450c?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200px" height="200px" alt="" srcset="">
+   
+</body>
+</html>

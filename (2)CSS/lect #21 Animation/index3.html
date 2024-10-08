@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            box-shadow: 3px 3px 10px rebeccapurple,-3px -3px 10px black;
+            position: absolute;
+            animation: key 5s linear infinite alternate;
+        }
+        @keyframes key {
+            0%{
+            
+            left: 0px;
+            top: 0px;
+            }
+            15%{
+                left: 200px;
+                top: 500px;
+                background-color: blueviolet;
+                border-radius: 10%;
+            }
+            40%{
+                left: 400px;
+                top: 0px;
+                background-color: black;
+                border-radius: 20%;
+            }
+            55%{
+                left: 600px;
+                top: 500px;
+                background-color: orangered;
+                border-radius: 30%;
+            }
+            75%{
+                left: 900px;
+                top: 0px;
+                background-color: palevioletred;
+                border-radius: 40%;
+            }
+            100%{
+                left: 1200px;
+                top: 500px;
+                background-color: palevioletred;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

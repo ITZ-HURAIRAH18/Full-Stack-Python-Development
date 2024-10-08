@@ -1,0 +1,17 @@
+flex container
+1) flex wrap means wrap karo agar div zayada ho to usa Agli line ma la jao.
+2)justify content Main Axis ko dakhata ha Agar row ho gi to X axis or agar coloumn ho ga to Y main axix ho ga.
+3)align item cross axis agar row ho to y ma kara ga or agar coloumn ho ga to x Axis ma kara ga.
+4) sapce ,space evennally sab justify content ma ho ga
+5)flex direction bataya ga ka kn si direction ha coloumn ya row.
+6)Agar ap cahta ho ka last wala Element pahla or pahla last pa chala jay to wrapreverse use karo.
+7)Flex flow ma pahla wrap aya ga bad ma flex direction.
+
+
+
+flex item
+1)grow ka baki div ka hisab sa grow kara ga.
+2) shrink ka ap reponsive krta hoa kitna shrink krna cahta ha
+3)order agar sa b ka order cange krna to ya lagaoo.
+4)align self individual div to align kara ga.
+5)flex-basis Width batata ha jo ka fix ho gi

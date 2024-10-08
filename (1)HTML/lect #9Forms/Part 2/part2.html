@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only screen and (min-width: 1200px) {
+    /* Styles for large desktops */
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for standard desktops */
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablets */
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Styles for small tablets and large smartphones */
+}
+@media only screen and (max-width: 575px) {
+    /* Styles for small mobile phones */
+}
+        form {
+            width: 450px;
+            height: 530px;
+            border: 2px solid black;
+            background-image: linear-gradient(to right, #C4E9EC,#2D3480); 
+            /* background-image: linear-gradient(to right, #F7FCFF,#9F2A00); */
+            /* background-image: linear-gradient(to right, #F1F1F1,#3D6734); */
+border-radius: 20px;
+        }
+
+        .abc {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .first {
+            text-align: center;
+        }
+
+        .bc {
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        .gen {
+            padding-top: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .lan {
+            padding-top: 20px;
+            position: relative;
+            left: 320px;
+            bottom: 100px;
+        }
+
+        .sub {
+            display: flex;
+            justify-content: center;
+        
+        }
+
+        .sum {
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .in {
+            cursor: pointer;
+            
+        }
+        body{
+          
+            background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0AMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAABAMBBv/EABoQAQEBAQEBAQAAAAAAAAAAAAASARFhUQL/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBf/EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAwDAQACEQMRAD8A9x06z6510HGa9d6x67QNOu9ZdKBr06yooGvTrKiga9OsqKBr06yooGvTrKiga9OsqOg16dZUUDXp1lRQNOnWXXeg06dZ9c6DGimNFLxLaimNFEG1FMaKINqKY0UQbUUxoog2opjRRBtRTGiiDaimNFEG1FMaKINqKY0UQbUUxoog2opjRRBtRTGiiDGy01lrwU2WmssgpstNZZBTZaayyCjf3pn71PZZBRZep7LIKbcvU9lkFFu2mssgpty9T2WQU2Wmssgpty09lkFF67aayyCmy01lkE9l4nstpEqLLT2WQUWWnssgovC09lkFF4XieyyCi8LxPZZBReF4nssgovC8T2WQUXheJ7LIKLwvE9lkFF4XieyyCiy09lkFF4WnssgnstPZbWCiy09lkFFlp7LIKLLT2WQUWWnssgostPZZBRZaeyyCiy09lkFFlp7LIKLLT2WQUWWnssgostPZZBRZaeyyCay01ltMimy01lmRTZaayzIpstNZZkU2WmssyKbLTWWZFNlprLMimy01lmRTZaayzIpstNZZkU2WmssyKbLTWWZFNlprLMiey09ltImKLLT2WQiiy09lkIostPZZCKLLT2WQiiy09lkIostPZZCKLLT2WQiiy09lkIostPZZCKLLT2WQiiy09lkIostPZZCJ79L9YUU0g3v0v1hRRBvfpfrCiiDe/S/WFFEG9+l+sKKIN79L9YUUQb36X6woog3v0v1hRRBvfpfrCiiDe/S/WFFEG9+l+sKKIN79L9YUUQb36X6woogwrfpTKt+lb9aQa0UyrSt+kGtelesb13P1pBrRTKtK36Qa0UyrfpW/SDWit+sq1y9INqKZVv0rfpBrRTKt+laQa0UyrfpW/SDWimVb9K0g1oplW/St+kGtb9K9ZVv039aQa0Vv1lWlb9IM3QSuOAAAAAAAA6AGAAGgDgAAAAAAAOuAD//Z);
+          
+        }
+        .contry{
+            position: relative;
+            left: 20px;
+            bottom: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="abc">
+        <form action="https://api.web3forms.com/submit" method="POST" >
+      
+            <input type="hidden" name="access_key" value="f2c5c36d-f663-45ff-a3a1-8adb7d49e675">
+            <div class="first">
+                
+                <h1>Login form</h1>
+                <label for="">Enter Username:</label><br>
+                <input class="bc " type="text" name="Username" required><br>
+                <label for="">Enter password:</label><br>
+                <input class="bc " type="password" name="password" required><br>
+                <label for="">Enter Mail:</label><br>
+                <input class="bc " type="email" name="Mail" required><br>
+            </div>
+            <div class="gen">
+                <label for="">Select Gender:</label><br>
+                <input class="in" type="radio" name="Gender" value="Male">
+                <label for="">Male</label><br>
+                <input class="in" type="radio" name="Gender" value="Female">
+                <label for="">Female</label><br>
+                <input class="in" type="radio" name="Gender" value="Not prefer to say">
+                <label for="">Not prefer to say</label><br>
+            </div>
+            <div class="lan">
+                <label for="">Select language: </label><br>
+                <input class="in" type="checkbox" name="Language"  value="C++">
+                <label for="">C++</label><br>
+                <input class="in" type="checkbox" name="Language" r value="Python">
+                <label for="">Python</label><br>
+                <input class="in" type="checkbox" name="language"  value="JavaScript">
+                <label for="">JavaScript</label><br>
+                <input class="in" type="checkbox" name="language"  value="java">
+                <label for="">java</label><br>
+            </div>
+            <div class="contry">
+            <label for="">Select Country:</label>
+            <select name="Country" id="">
+                <option value="None"></option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bangladesh">Bangladesh</option>
+            </select>
+            <!-- <textarea name="review" id="" placeholder="Comment" rows="4" cols="34"></textarea> -->
+             <!-- <button type="button">Press</button> -->
+             <!-- <button type="button">Press</button> -->
+        </div> 
+      
+            <div class="sub">
+                <input class="sum" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

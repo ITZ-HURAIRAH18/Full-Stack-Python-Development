@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio</title>
+  <link rel="icon" href="imags/logo.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .main {
+      width: 100%;
+      height: 650px;
+      background-color: rgb(51, 50, 50);
+      overflow: hidden;
+    }
+
+    nav {
+      width: 1380px;
+      height: 70px;
+      background-color: rgb(51, 50, 50);
+      position: fixed;
+      z-index: 5;
+    }
+
+    .hu {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      display: inline-block;
+      position: relative;
+      bottom: 8px;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    .lo {
+      margin-left: 140px;
+      margin-top: 20px;
+    }
+
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+
+    }
+
+    /* a:hover{
+        color: rgb(234,67,67);
+       
+     } */
+    .span:hover {
+      border-bottom: 2px solid rgb(234, 67, 67);
+      color: rgb(234, 67, 67);
+    }
+
+    .na {
+      position: relative;
+      bottom: 15px;
+      left: 300px;
+      padding: 40px;
+
+    }
+
+    .main2 {
+      width: 100%;
+      height: 700px;
+      background-color: rgb(234, 67, 67);
+      /* position: relative; */
+      margin: 0%;
+      padding: 0%;
+      /* overflow: hidden; */
+    }
+
+    .jjj {
+      position: relative;
+      top: 150px;
+      left: 40px;
+      border-radius: 8px;
+      z-index: 2;
+    }
+
+    .jj {
+      width: 200px;
+      height: 200px;
+      border: 5px solid white;
+    }
+
+    .j {
+      width: 100px;
+      height: 100px;
+      border: 5px solid rgb(234, 67, 67);
+      background-color: rgb(234, 67, 67);
+      z-index: 1;
+      position: absolute;
+      top: 110px;
+    }
+
+    .ab {
+      color: white;
+      position: relative;
+      left: 400px;
+      bottom: 320px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .ho {
+      color: white;
+      position: relative;
+      left: 400px;
+      bottom: 300px;
+      font-family: "Roboto", sans-serif;
+      font-size: 35px;
+    }
+
+    .abu {
+      color: rgb(51, 50, 50);
+      text-shadow: 5px 0 10px rgb(234, 67, 67), 0 5px 10px rgb(234, 67, 67), -5px 0 10px rgb(234, 67, 67), 0 -5px 10px rgb(234, 67, 67);
+      font-family: "Protest Guerrilla", sans-serif;
+    }
+
+    .ha {
+      position: absolute;
+      bottom: 320px;
+
+    }
+
+    .pa {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      position: relative;
+      left: 400px;
+      bottom: 230px;
+    }
+
+    .pp {
+
+      font-family: "Protest Guerrilla", sans-serif;
+      color: rgb(154, 151, 161);
+      position: relative;
+      left: 400px;
+      bottom: 210px;
+    }
+
+    .popo {
+      margin-top: 22px;
+    }
+
+    .ee {
+      font-size: 30px;
+    }
+
+    .view {
+      position: relative;
+      bottom: 5px;
+    }
+
+    .cc {
+      width: 150px;
+      padding: 10px;
+      border: 2px solid rgb(234, 67, 67);
+      background-color: rgb(234, 67, 67);
+      color: white;
+      border-radius: 5px;
+      position: relative;
+      left: 400px;
+      bottom: 170px;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+
+    .cc:hover {
+      color: white;
+      background-color: rgb(51, 50, 50);
+      border: 2px solid rgb(234, 67, 67);
+      box-shadow: 5px 0 10px rgb(234, 67, 67), 0 5px 10px rgb(234, 67, 67), -5px 0 10px rgb(234, 67, 67), 0 -5px 10px rgb(234, 67, 67);
+    }
+
+    .lar {
+      position: relative;
+      top: 5px;
+    }
+
+    .jpp {
+      position: relative;
+      left: 1050px;
+      bottom: 200px;
+      border-radius: 5px;
+      z-index: 2;
+    }
+
+    .booo {
+      position: relative;
+      left: 1200px;
+      bottom: 600px;
+      width: 200px;
+      height: 200px;
+      border: 1px solid rgb(234, 67, 67);
+      background-color: rgb(234, 67, 67);
+      z-index: 1;
+    }
+
+    .boo {
+      position: relative;
+      left: 990px;
+      bottom: 700px;
+      width: 100px;
+      height: 100px;
+      border: 5px solid white;
+      /* background-color:white; */
+    }
+
+    .x {
+      color: rgb(234, 67, 67);
+      font-family: "Rubik", sans-serif;
+      position: relative;
+      bottom: 400px;
+      left: 200px;
+      text-shadow: 2px 0 white, 0 2px white, -2px 0 white, 0 -2px white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .tt {
+      font-size: 35px;
+      margin-top: 20px;
+      font-family: "Protest Guerrilla", sans-serif;
+      font-weight: bold;
+    }
+
+    .tx {
+      font-size: 35px;
+      margin-top: 20px;
+      font-family: "Protest Guerrilla", sans-serif;
+      font-weight: bold;
+    }
+
+    .vv {
+      font-size: 15px;
+      margin-top: 25px;
+      font-family: "Rubik", sans-serif;
+      word-spacing: 3px;
+
+    }
+
+    .dvv {
+      width: 400px;
+      height: 5px;
+      border: 2px solid rgb(207, 119, 119);
+      position: relative;
+      left: 850px;
+      bottom: 580px;
+      border-radius: 5px;
+      color: rgb(207, 119, 119);
+      background-color: rgb(207, 119, 119);
+    }
+
+    .dvx {
+      width: 300px;
+      height: 5px;
+      border: 2px solid white;
+      position: relative;
+      left: 850px;
+      bottom: 590px;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    .bb {
+      margin-top: 40px;
+    }
+
+    .bx {
+      margin-top: 350px;
+    }
+
+    .ggg {
+      width: 245px;
+    }
+
+    .f {
+      width: 270px;
+    }
+
+    .web {
+      position: relative;
+      bottom: 600px;
+      left: 852px;
+      font-family: "Roboto", sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+
+    .zzz {
+      position: relative;
+      left: 850px;
+      bottom: 570px;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+    }
+
+    .czz {
+      position: relative;
+      left: 850px;
+      bottom: 570px;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+    }
+
+    .iii {
+      width: 400px;
+      height: 5px;
+      border: 2px solid rgb(207, 119, 119);
+      border-radius: 5px;
+      color: rgb(207, 119, 119);
+      background-color: rgb(207, 119, 119);
+      position: relative;
+      left: 850px;
+      bottom: 20px;
+    }
+
+    .bbb {
+      width: 350px;
+      height: 5px;
+      border: 2px solid white;
+      position: relative;
+      left: 850px;
+      bottom: 30px;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    .fg {
+      font-family: "Protest Guerrilla", sans-serif;
+    }
+
+    /* .xxx{
+  line-height: 30px;
+} */
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav>
+      <div class="nah">
+        <a href=""> <img class="lo" width="40px" height="40px" src="imags/logo.png" alt=""></a>
+        <a href=""><span class="hu">Hurairah </span></a>
+
+        <a class="na" href="index.html"> <span class="span">Home</span></a>
+        <a class="na" href="about.html"> <span class="span">About us</span></a>
+        <a class="na" href="services.html"> <span class="span">Services</span></a>
+        <a class="na" href="contactus.html"> <span class="span">Contact us</spanI></a>
+      </div>
+    </nav>
+
+  </div>
+  <div class="main">
+    <img class="jjj" src="imags/without/1.jpg" width="250px" height="300px" alt="">
+    <div class="jj"> </div>
+    <div class="j"> </div>
+    <span class="ab">About me</span>
+    <div class="ho">I am <span class="abu">M.Abu Hurairah</span> </div>
+    <div class="ho ha">Web<span class="abu">Developer</span> </div>
+    <p class="pa">Based in Faisalabad</p>
+    <p class="pp">Hi! My name is M.AbuHurairah. I am Web designer, and I am very
+      <br> passionate and dedicated to my work
+    </p>
+    <p class="pp  popo">With 20 years experience as a professional graphic designer and web <br> developer, I have
+      acquired the skills and knowledge necessary to make <br> your project a success.</p>
+    <a class="cc" href="Abu Hurairah CV.pdf"> <span class="lar"><span class="view">View Cv </span> <span
+          class="ee">&#9865;</span></span>
+    </a>
+
+  </div>
+  <div class="main2">
+    <img class="jpp" src="imags/without/2.jpg" width="250px" height="280px" alt="">
+    <div class="booo"></div>
+    <div class="boo"></div>
+    <div class="iii"></div>
+    <div class="bbb"></div>
+    <p class="x fg">My Skills</p>
+    <p class="x tt">You Can Imagine</p>
+    <p class="x tx">I Can Do</p>
+    <p class="x vv xxx">M. Abu Hurairah is a dedicated BSCS student at UCP, passionate <br><br> about full-stack
+      development. He is currently learning FullStack <br><br>Development with Python and working on web projects,
+      including <br><br>a Netflix clone. His strong foundation in programming and <br><br>object-oriented principles
+      drives his continuous growth <br> <br>as a developer.i</p>
+    <div class="web">Website
+      Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;67%
+    </div>
+    <div class="dvv"></div>
+    <div class="dvx f"></div>
+    <div class="zzz">Gamming
+      Programming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75%
+    </div>
+    <div class="dvv bb"></div>
+    <div class="dvx"></div>
+    <div class="czz">C++
+      Programming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%
+    </div>
+
+
+</body>
+
+</html>
